@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "vite",
-    "deploy": "git add . & git commit -m 'update' & git push",
+    "deploy": "git add . && git commit -m \"update\" && git push",
     "build": "vite build --base=/project-weather-app/",
     "preview": "vite preview"
   },
