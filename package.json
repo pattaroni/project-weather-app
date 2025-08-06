@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
+    "deploy": "git add . & git commit -m 'update' & git push",
     "build": "vite build --base=/project-weather-app/",
     "preview": "vite preview"
   },
@@ -17,6 +18,7 @@
   "author": "Oleksii Kyryk <kirikoleksiy112@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.11.0",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
   }
